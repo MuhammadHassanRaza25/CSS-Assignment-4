@@ -1,0 +1,75 @@
+.header{
+    background: linear-gradient(to right, rgb(255, 196, 123) , rgb(255, 207, 149));
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 1px 1px 5px brown;
+}
+.logo{
+    width: 100px;
+}
+ul li{
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+a{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: brown;
+    transition: all 0.5s;
+    transition: normal;
+    transition-duration: 0.5s;
+}
+a:hover{
+    color:white;
+}
+.div1 {
+    width:15%;
+    box-shadow: 1px 1px 5px brown;
+    border: 2px solid brown;
+    margin-top: 35px;
+    height: 370px;
+    overflow-y: scroll;
+    background: linear-gradient(to right, rgb(255, 196, 123) , rgb(255, 207, 149));
+}
+.div1 p img{
+    width: 80%;
+    margin-left: 20px;
+    border: 2px solid brown;
+}
+.div2{
+    float: right;
+    border: 2px solid brown;
+    box-shadow: 1px 1px 5px brown;
+    margin-top: 35px;
+    width:80%;
+    height: 370px;
+    background: linear-gradient(to right, rgb(255, 196, 123) , rgb(255, 207, 149));
+}
+.div2 p{
+    width:85%;
+    margin-left:8%;
+    margin-top: 20px;
+    transition: all 0.5s;
+    transition: normal;
+    transition-duration:0.5s ;
+}
+.div2 p:hover{
+      padding-left: 10px;
+}
+.div2 p img{
+    width:100% ;
+    margin-top: 1%;
+    border: 2px solid brown;
+}
+.footer{
+    text-align: center;
+    box-shadow: 1px 1px 5px brown;
+    color: brown;
+    font-family: sans-serif;
+    margin-top: 3.2%;
+    border: 2px solid brown;
+    padding: 5px;
+    background: linear-gradient(to right, rgb(255, 196, 123) , rgb(255, 207, 149));
+}
