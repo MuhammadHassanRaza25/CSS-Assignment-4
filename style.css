@@ -1,8 +1,12 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
 .header{
     background: linear-gradient(to right, rgb(255, 196, 123) , rgb(255, 207, 149));
     display: flex;
     justify-content: space-between;
-    box-shadow: 1px 1px 5px brown;
+    border-bottom: 2px solid brown;
 }
 .logo{
     width: 100px;
@@ -10,7 +14,7 @@
 ul li{
     display: inline-block;
     margin-right: 20px;
-    margin-top: 15px;
+    margin-top: 10.1%;
 }
 a{
     text-decoration: none;
@@ -25,51 +29,49 @@ a:hover{
     color:white;
 }
 .div1 {
-    width:15%;
-    box-shadow: 1px 1px 5px brown;
-    border: 2px solid brown;
-    margin-top: 35px;
-    height: 370px;
+    width:18%;
+    height: 490px;
     overflow-y: scroll;
     background: linear-gradient(to right, rgb(255, 196, 123) , rgb(255, 207, 149));
 }
 .div1 p img{
     width: 80%;
+    margin: 8px;
     margin-left: 20px;
     border: 2px solid brown;
+    box-shadow: 1px 1px 5px black;
 }
 .div2{
     float: right;
-    border: 2px solid brown;
-    box-shadow: 1px 1px 5px brown;
-    margin-top: 35px;
-    width:80%;
-    height: 370px;
+    width:82%;
+    height: 490px;
     background: linear-gradient(to right, rgb(255, 196, 123) , rgb(255, 207, 149));
 }
 .div2 p{
-    width:85%;
+    width:83%;
     margin-left:8%;
     margin-top: 20px;
     transition: all 0.5s;
     transition: normal;
     transition-duration:0.5s ;
 }
-.div2 p:hover{
-      padding-left: 10px;
-}
 .div2 p img{
     width:100% ;
     margin-top: 1%;
     border: 2px solid brown;
 }
+.pp{
+    display: inline-block;
+    margin-left: 6.3%;
+}
+.pp p img{
+    height: 170px;
+}
 .footer{
     text-align: center;
-    box-shadow: 1px 1px 5px brown;
     color: brown;
     font-family: sans-serif;
-    margin-top: 3.2%;
-    border: 2px solid brown;
-    padding: 5px;
+    border-top: 2px solid brown;
+    padding: 1.5%;
     background: linear-gradient(to right, rgb(255, 196, 123) , rgb(255, 207, 149));
 }
